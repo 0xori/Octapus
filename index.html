@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Octipous</title>
+			<link rel="stylesheet"  href="includes/design.css" />
+			<script language="JavaScript" src="http://code.jquery.com/jquery-latest.min.js" type="text/JavaScript"></script>
+			<script src="js/jquery-1.2.6.pack.js" type="text/javascript"></script>
+   			<script src="js/jquery.flow.1.1.min.js" type="text/javascript"></script>
+			<script src="js/octipusEffects.js" type="text/javascript"></script>
+		</head>
+		<body onload="onLoad()">						<!-- header parallax effect-->		
+			<!-- the wrapper includes the content itself and the background parallax layers-->
+			<div id="wrapper" >
+				<div id="content">
+					<section id="page1" class="fade">
+						<!-- header parallax effect-->
+						<div id="bg-parallax4" class="fade">
+							<header><h1>Where do you want</br> to <span>reach</span> ?</h1></header>
+						</div>
+						<div class="clear"></div>
+						<!-- parallax layer for the nav effect-->
+						<div id="bg-parallax3">
+							<nav>
+								<a id="the_assigment" href="#page2">The </br> Assignment</a>
+								<a id="the_begining" href="#page3">The </br> Begining</a>
+								<a id="the_concept" href="#page4">The</br> Concept</a>
+								<a id="the_company" href="#page5">The</br>Company</a>
+								<a id="the_design" href="#page6">The</br>Design</a>
+								<a id="the_logo" href="#page7">The</br>Logo</a>
+								<a id="the_app" href="#page8">The</br>App</a>
+								<a id="the_intro" href="#" onclick="overlay('video_overlay')">The<br>Intro</a>
+								<div class="clear"></div>
+							</nav>
+						</div>
+
+					<!--  the section rpresent each page.severy section has it's id e.g page 2 and the fade class for the fading effect in js .
+					 it also has h2 for the header p for the content and h4 for the learn more link. some of the pages has brightning dot-->
+					</section >
+					<aside id ="timeline"></aside>
+					<div class="clear"></div>
+					<aside id="topButton"><a href="#"><img src="includes/images/TOP.png"></a></aside>
+					<section id="page2" class="fade">
+						<h2  id="the_assigment_text">The Assignment</h2>
+						<p>Our goal was to create the</br> logos of the new generation.</p>
+						<h4 id="learn_more1"><a href="#page2" onclick="overlay('assignment_overlay')">LEARN MORE</a></h4>
+					</section>
+					<section id="page3" class="fade">	
+						<h2 id="the_begining_text" >The Beginning</h2>
+						<p>I&nbsp; chose the octopus</br>as my starting point</br>of creating the logo.</p>
+						<h4 id="learn_more2"><a href="#page3" onclick="overlay('begginning_overly')">LEARN MORE</a></h4>
+						<h3 id="brightning2" >
+					</section>
+					<section id="page4" class="fade">
+						<h2 id="the_concept_text">The Concept</h2>
+						<p>finding the parallels</br>between airport passenger</br>information system and</br>certain charateristics of</br>the octopus.</p>
+						<h4 id="learn_more3"><a href="#page4" onclick="overlay('concept_overly')">LEARN MORE</a></h4>
+						<h3 id="brightning3" >
+					</section>
+					<section id="page5" class="fade">		
+						<h2 id="the_company_text">The Company</h2>
+						<p><span>i reach</span> provides a new level of</br>personalized service for users.</p>
+						<h4 id="learn_more4"><a href="#page5" onclick="overlay('company_overly')">LEARN MORE</a></h4>
+					</section>
+					<section id="page6" class="fade">			
+						<h2 id="the_design_text">The Design</h2>
+						<p>Dynamic, light usage and nine units</br>within were the elements I referred</br>to when I designed the logo.</p>
+						<h4 id="learn_more5"><a href="#page6" onclick="overlay('design_overly')">LEARN MORE</a></h4>
+						<h3 id="brightning5">
+					</section>
+					<section id="page7" class="fade">
+						<h2 id="the_logo_text">The Logo</h2>
+						<p>The result is a flexible and</br>dynamic logo in constant motion just like information<br />flow in the airport.</p>
+						<h4 id="learn_more6"><a href="#page7" onclick="overlay('logo_overly')">SEE THE LOGO</a></h4>
+						<h3 id="brightning6" >
+					</section>
+					<section id="page8">
+						 <section id="ipad">
+						 	<section id="ipadApp">
+						        <div id="controller" class="hidden">
+						            <span class="jFlowControl">No 1</span>
+						            <span class="jFlowControl">No 2</span>
+						            <span class="jFlowControl">No 3</span>
+						            <span class="jFlowControl">No 4</span>
+						            <span class="jFlowControl">No 5</span>
+						            <span class="jFlowControl">No 6</span>
+						        </div>
+						        				        
+						        <div id="slides">
+						            <div id="ipad1" class="app">
+						                <h5>The App</h5>
+						                <p>Don't look for the information,<br>
+						               it will <span>reach</span> you.</p>
+						            </div>
+						            <div id="ipad2" class="app">
+						            	<h5></h5>
+						            	<h4></h4>
+						            </div>
+						            <div id="ipad3" class="app">
+						            	<h5></h5>
+						            	<h4></h4>
+						            	<h3></h3>
+						            </div>
+						            <div id="ipad4" class="app">
+						            	<h5></h5>
+						            	<h4></h4>
+						            	<h3></h3>
+						            </div>
+						            <div id="ipad5" class="app">
+						           		<h5></h5>
+						           		<h1></h1>
+						            	<h4></h4>
+						            	<h3></h3>
+						            	<h2></h2>       	
+						            </div>
+						            <div id="ipad6" class="app">
+										<h5></h5>
+						            	<h4></h4>
+						            	<h3></h3>
+						            	<h2></h2>
+						            </div>
+						        </div>
+						        <!------the arrows for the ipad------>
+						        <div id="prevNext">
+						            <img src="includes/images/leftArrow.jpg" alt="Previous Tab" class="jFlowPrev" id="#leftArrow"/>
+						            <img src="includes/images/rightArrow.jpg" alt="Next Tab" class="jFlowNext" id="rightArrow"/>
+						        </div>
+					        </section>
+					    </section>
+					</section>
+					<!-- Dialog boxes -->
+					<section class="overlay" id="assignment_overlay_bg">
+						<article class="overlay_content" id="assignment_overlay">
+							<a href="#page2" onclick="overlay('assignment_overlay')"><img src="includes/images/close.png"></a>
+							<article>
+								<p>Our project was to design a dynamic<br>logo for an Asian company which <br>operates in an airport.</p>
+								<p>The project involves researching<br>prospective logo subjects,<br>
+									visual inspiration and interpretation.</p>
+								<p>Shankar student software engineers<br>were part of this project as well.</p>	
+							</article>
+						</article>
+					</section>
+					<section class="overlay" id="beggining_overlay_bg">
+						<article class="overlay_content" id="begginning_overly">
+							<a href="#page3" onclick="overlay('begginning_overly')"><img src="includes/images/close.png"></a>
+							<article>
+								<img id="red_oc" src="includes/images/red_octipus.jpg">
+								<p>We discovered that these mysterious<br>sea animals are among the most<br>
+									intelligent and behaviorally flexible<br>
+									of all invertebrates.<br>
+								Regarding  its complex anatomy;<br> 
+								The octopus has a central brain and<br> eight flexible tentacles each of which <br>
+								has its own independent nerve<br> system, allowing autonomous<br>operation; and Because it does not<br> have a skeleton, the animal is very<br> flexible, especially in reaching anywhere.<br>
+								Light signals are used to<br> communicate between individuals.
+								</p>	
+							</article>
+						</article>
+					</section>
+					<div class="clear"></div>
+					<section class="overlay" id="concept_overlay_bg">
+						<article class="overlay_content" id="concept_overly">
+							<a href="#page4" onclick="overlay('concept_overly')"><img src="includes/images/close.png"></a>
+							<article>
+								<p>There are parallels between an airport passenger information system and certain characteristics of the octopus:
+									<br>
+									&bull; Airport arrival and departure information can be collected from distributed subsystems assembled in a centralized computer and made available to passengers through independent information devices, for example an iPhone.<br>
+									&bull; The octopus can get something to eat by making a decision in its central brain, commanding one of it's independent tentacles to grab the food.
+								</p>
+								<p>
+									A further parallel is in the communications technology area:<br>
+									&bull; The airport passenger information system would use fiber optic cables with information represented by light signals.<br>
+									&bull; The octopus uses light signals to communicate with other octopus.
+								</p>
+								<p>
+									These parallels are the basis for the concept for the <span>i reach</span> company, an information company providing tailored information for individual passengers using an iPhone application.
+								</p>
+							</article>
+						</article>
+					</section>
+					<div class="clear"></div>
+					<section class="overlay" id="company_overlay_bg">
+						<article class="overlay_content" id="company_overly">
+							<a href="#page5" onclick="overlay('company_overly')"><img src="includes/images/close.png"></a>
+							<article>
+								<p><span>i reach</span> provides a new level of personalized airport service for passengers, who, using the <span>i reach</span> app can instantly find information including:
+								</p>
+								<p>
+									&bull; For departing passengers: directions to security checks and the check-in counter, location of rest rooms, directions to the duty-free shopping and to food and beverage service, location and status of departure gate, and time of departure.
+								</p>
+								<p>&bull; For arriving passengers: location of immigration control and baggage claim, directions to customs, and ground transportation options.</p>
+							</article>
+						</article>
+
+					</section>
+					<div class="clear"></div>
+					<section class="overlay" id="design_overlay_bg">
+						<article class="overlay_content" id="design_overly">
+								<a href="#page6" onclick="overlay('design_overly')"><img src="includes/images/close.png"></a>
+								<article>
+									<p>The object was to design a logo that represents an innovator information company that serves the user quickly with the capability to gather from all relevant sectors for the passenger.<br>
+									I took insperation from science, architecture and math in nature. 
+									</p>
+									<footer>
+										<aside id="img1"></aside>
+										<aside id="img2"></aside>
+										<aside id="img3"></aside>
+									</footer>
+								</article>
+						</article>
+					</section>
+					<div class="clear"></div>
+					<section class="overlay" id="logo_overlay_bg">
+						<article class="overlay_content" id="logo_overly">
+								<a href="#page7" onclick="overlay('logo_overly')"><img src="includes/images/close.png"></a>
+								<section id="logo_text_box"></section>
+						</article>
+					</section>
+					<div class="clear"></div>
+					<section class="overlay" id="video_overlay_bg">
+						<article class="overlay_content" id="video_overlay">
+							<a href="#" onclick="overlay('video_overlay')"><img src="includes/images/close.png"></a>
+							<video id="intro_video" controls>
+								<source src="includes/videos/intro.mp4" type="video/mp4">
+								Your browser does not support HTML5 video.
+							</video>
+						</article>
+					</section>
+					<div class="clear"></div>
+				</div>	
+				<!--  first parallax background-->
+				<div id="bg-parallax1">
+				<!--  second parallax background-->
+				</div>
+				<div id="bg-parallax2">
+			
+				</div>
+			</div>
+		</body>
+	</html>
+

@@ -1,0 +1,1366 @@
+@import url('http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic');
+@import url('http://fonts.googleapis.com/css?family=Roboto+Slab:300');
+@import url('http://fonts.googleapis.com/css?family=Noto+Sans');
+
+
+
+/*----------------------------------------     Genral    --------------------------------------------------*/
+* {margin:0; padding:0;}
+
+	#wrapper
+	{
+		margin: 0px auto;
+		width:1004px;
+		height: 7000px;
+		background-image: url("images/bodyimage.png");
+		background-repeat: no-repeat;
+		overflow: auto;
+	}
+
+	#wrapper section
+	{
+		height:840px;
+	}
+
+	body
+	{
+		background-color: #000000;
+		height: 6720px;
+	}
+
+	 span
+	{
+		font-family: 'Libre Baskerville';
+		font-style: italic;
+	}
+
+
+
+	.clear
+	{
+		clear:both;
+	}
+
+	/* Main sections general properties */
+
+
+	/*-------------------------------------   Animated gif Dot  -----------------------------------------*/
+
+	section h3
+	{
+		height: 50px;
+		width: 50px;	
+		float: left;
+		position: absolute;
+		background-image: url("images/brighting.gif");
+
+	}
+
+
+/* --------------------------------------------------   Regular screen   ---------------------------------------------------- */
+@media (min-width: 850px){
+	#wrapper
+	{
+		margin: 0px auto;
+		width:1004px;
+		height: 7000px;
+		background-image: url("images/bodyimage.png");
+		background-repeat: no-repeat;
+		overflow: auto;
+	}
+
+
+/* --------------------------------   Main Sections Fonts   ----------------------------------------- */
+
+	section h2
+	{
+		float: left;
+		position: absolute;
+		font-family: 'Roboto Slab';
+		font-size: 22px;
+		color: #ffffff;
+	}
+
+	header h1
+	{
+		margin-top:139px;
+		margin-left: 80px;
+		position: relative;
+		float: left;
+		font-family: 'Roboto Slab';
+		font-size: 44px;
+		color: white;	
+	}
+
+	.fade p
+	{
+		font-family: 'Libre Baskerville';
+		font-size: 36px;
+		color: #ffffff;
+		text-align: center;
+		float: left;
+		position: absolute;
+		
+	}
+
+		nav a:link, nav a:visited
+	{
+		float: left;
+		position: absolute;
+		z-index: 5;
+		font-family: 'Roboto Slab';
+		font-size: 20px;
+		color: #ffffff;
+		text-decoration: none;
+		text-align: center;
+		opacity: 0.4;
+	}
+
+
+	section h4
+	{
+		float: left;
+		position: absolute;
+		z-index: 10;
+		font-family: 'Noto Sans';
+		font-size: 12.5px;
+		color: #ffffff;
+	}
+	nav a:hover
+	{
+		opacity: 1;	
+	}
+
+	section	h4 a, a:visited
+	{
+		color: #ffffff;
+		text-decoration: none;
+		opacity: 0.4;
+	}
+
+	section h4 a:hover
+	{
+		opacity: 1;
+	}
+
+
+
+	/*----------------------------------------  Nav menu --------------------------------------------------------*/
+
+	nav
+	{
+		width:1004px;
+		height: 380px;
+	}
+
+	#the_assigment
+	{
+		margin-left: 97px;
+		margin-top: 330px;
+	}
+
+
+	#the_begining
+	{
+		margin-left: 200px;
+		margin-top: 244px;
+	}
+
+	#the_concept
+	{
+		margin-left: 320px;
+		margin-top: 166px;
+	}
+
+	#the_company
+	{
+		margin-left: 435px;
+		margin-top: 104px;
+	}
+
+	#the_design
+	{
+		margin-left: 580px;
+		margin-top: 62px;
+	}
+
+
+	#the_logo
+	{
+		margin-left: 728px;
+		margin-top: 30px;
+	}
+
+	#the_app
+	{
+		margin-left: 866px;
+		margin-top: 12px;
+	}
+
+	#the_intro
+	{
+		margin-left: 979px;
+		margin-top: 33px;
+	}
+
+
+	/* ----------------------------------------  The Assignment Section ----------------------------------------*/
+	#the_assigment_text
+	{
+		margin-left: 288px;
+		top: 1216px;
+	}
+
+
+	#page2 p
+	{
+		margin-left: 288px;
+		top :1252px;
+	}
+
+
+	#learn_more1
+	{
+		text-align: right;
+		margin-left: 719px;
+		top: 1348px;		
+	}
+
+	/* ----------------------------------------  The Begining Section ----------------------------------------*/
+	#the_begining_text
+	{
+		margin-left:435px;
+		top: 2038px;
+	}
+
+	#page3 p
+	{
+		margin-left: 435px;
+		top: 2070px;
+		text-align: left;
+	}
+
+
+	#learn_more2
+	{
+		margin-left: 715px;
+		top: 2210px;	
+
+	}
+	#brightning2
+	{
+		top:1993px;
+		margin-left:297px;
+	}
+
+	/* ----------------------------------------  The Concept Section ----------------------------------------*/
+
+	#the_concept_text
+	{
+		margin-left:60px;
+		top: 2835px;	
+	}
+
+	#page4 p
+	{
+		top: 2870px;
+		margin-left: 60px;
+	}
+
+	#learn_more3
+	{
+		margin-left: 440px;
+		top: 3100px;
+	}
+
+	#brightning3
+	{
+		top:3050px;
+		margin-left:564px;
+	}
+
+	/* ----------------------------------------  The Company Section ----------------------------------------*/
+	#the_company_text
+	{
+		margin-left:257px;
+		top: 3857px;
+	}
+
+	#page5 p
+	{
+		margin-left: 257px;
+		top: 3890px;
+		text-align: justify;
+	}
+
+	#learn_more4
+	{
+		margin-left: 717px;
+		top: 3988px;	
+	}
+
+	/* ----------------------------------------  The Design Section ----------------------------------------*/
+
+	#the_design_text
+	{
+		margin-left:243px;
+		top: 4477px;
+	}
+
+	#page6 p
+	{
+		margin-left: 243px;
+		top: 4510px;
+		text-align: center;
+
+	}
+
+	#learn_more5
+	{
+		margin-left: 818px;
+		top: 4650px;	
+	}
+
+	#brightning5
+	{
+		top:4467px;
+		margin-left:182px;
+	}
+
+	/* ----------------------------------------  The Logo Section ----------------------------------------*/
+
+	#the_logo_text
+	{
+		margin-left:35px;
+		top: 5417px;	
+	}
+
+	#page7 p
+	{
+		width: 620px;
+		margin-left: 35px;
+		top: 5458px;
+	}
+
+	#learn_more6
+	{
+		margin-left: 550px;
+		top: 5638px;
+	}
+	#brightning6
+	{
+		top:5405px;
+		margin-left:583px;
+	}
+
+
+	/*---------------------------------       Parallax Scroll             ---------------------------------------*/
+
+	#content
+	{
+		z-index: 5;
+		width: 1000px;
+	}
+
+	#bg-parallax1
+	{
+		background-image: url("images/parallax-slow.png");
+		position: fixed;
+		z-index: 3;
+		height: 6750px;
+		width: 1000px;
+	}
+
+
+	#bg-parallax2
+	{
+		background-image: url("images/parallax-slower.png");
+		position: fixed;
+		z-index: 1;
+		height: 6750px;
+		width: 1000px;
+	}
+
+	#bg-parallax3
+	{
+		position: fixed;
+		margin-top: 240px;
+		z-index: 5;
+	}
+
+	#bg-parallax4
+	{
+		position: fixed;
+		margin-top: 50px;
+		z-index: 7;
+	}
+
+		/*-------------------------------    		iPad 		---------------------------------------------*/
+
+	#ipad
+	{
+		position: relative;
+		margin-top: 180px;
+		float: left;
+		margin-left: 90px;
+		background-image: url("images/ipad_frame2.png");	
+		background-repeat: no-repeat;
+		z-index: 6;
+		width: 812px;
+		height: 637px;
+		font-family: 'Libre Baskerville';
+		color: #ffffff;
+	}
+
+
+	#ipadApp
+	{
+		position: relative;
+		height: 485px;
+		width: 633px;
+		margin-top: 76px;
+		margin-left: 96px;
+	}
+
+	.app
+	{
+		height: 485px;
+		width: 633px;
+		position: relative;
+	}
+
+	#prevNext
+	{
+		margin-top: 19px;
+		margin-left: 255px;
+	}
+
+	#prevNext img
+	{
+		position: relative;
+		z-index: 7;
+		cursor: pointer;
+	}
+
+	#leftArrow
+	{
+
+	}
+
+	#rightArrow
+	{
+		margin-left: 81px;
+	}
+
+	.hidden
+	{
+		display: none;
+	}
+
+	/* -----------------------------       iPad page 1     ------------------------------------------------*/
+
+	#ipad1 h5
+	{
+		text-align: left;
+		font-family: 'Roboto Slab';
+		font-size: 22px;
+		margin-top: 160px;
+		margin-left: 45px;
+
+	}
+
+	#ipad1 p
+	{
+		font-size: 36px;
+		text-align: center;
+		width: 600px;
+		margin-left: 30px;
+		margin-top: 10px;
+	}
+
+	/* -----------------------------       iPad page 2     ------------------------------------------------*/
+
+	#ipad2 h5
+	{
+		background-image: url("images/smartVector.png");
+		width: 640px;
+		height: 485px;
+		float: left;
+	}
+
+	#ipad2 h4
+	{
+		width: 470px;
+		height: 48px;
+		background-image: url("images/ipad2text.png");
+		float: left;
+		margin-top: 200px;
+		margin-left: 100px;
+
+	}
+
+
+	/* -----------------------------       iPad page 3     ------------------------------------------------*/
+
+	#ipad3 h4
+	{
+		background-image: url("images/smartVector3.png");
+		width: 274px;
+		height: 476px;
+		float: left;
+
+	}
+	#ipad3 h5
+	{
+		background-image: url("images/ipad3text.png");
+		width: 286px;
+		height: 474px;
+		float: left;
+		margin-left: 170px;
+
+	}
+	#ipad3 h3
+	{
+		background-image: url("images/ipad3text2.png");
+		width: 98px;
+		height: 34px;
+		float: left;
+		margin-left: 520px;
+		margin-top: 20px;
+
+	}
+
+
+
+	/* -----------------------------       iPad page 4     ------------------------------------------------*/
+
+	#ipad4 h5
+	{
+		background-image: url("images/smartVector4.png");
+		width: 286px;
+		height: 262px;
+		float: left;
+		margin-top: 120px;
+	}
+
+	#ipad4 h3
+	{
+		background-image: url("images/ipad3text2.png");
+		width: 98px;
+		height: 34px;
+		float: left;
+		margin-left: 520px;
+		margin-top: 20px;
+
+	}
+
+	#ipad4 h4
+	{
+		background-image: url("images/ipad4text.png");
+		width: 148px;
+		height: 34px;
+		float: left;
+		margin-left: 255px;
+		margin-top: 330px;
+
+	}
+
+
+	/* -----------------------------       iPad page 5     ------------------------------------------------*/
+
+	#ipad5 h5
+	{
+		background-image: url("images/smartVector5.png");
+		height: 487px;
+		width:636px;
+		float: left;
+	}
+
+	#ipad5 h4
+	{
+		background-image: url("images/ipad5text1.png");
+		width: 372px;
+		height: 41px;
+		float: left;
+		margin-left: 30px;
+		margin-top: 30px;
+
+	}
+	#ipad5 h1
+	{
+		background-image: url("images/ipad5text3.png");
+		width: 79px;
+		height: 51px;
+		float: left;
+		margin-left: 520px;
+		margin-top: 30px;
+		position: absolute;
+	}
+
+	#ipad5 h3
+	{
+		background-image: url("images/ipad5text2.png");
+		width: 190px;
+		height: 94px;
+		float: left;
+		margin-left: 365px;
+		margin-top: 300px;
+
+	}
+
+	#ipad5 h2
+	{
+		background-image: url("images/ipad5text.png");
+		width: 205px;
+		height: 112px;
+		float: left;
+		margin-left: 110px;
+		margin-top: 110px;
+
+	}
+
+
+	/* -----------------------------       iPad page 6     ------------------------------------------------*/
+
+	#ipad6 h5
+	{
+		background-image: url("images/smartVector6.png");
+		height: 481px;
+		width:634px;
+		float: left;
+	}
+
+
+
+	#ipad6 h3
+	{
+		background-image: url("images/ipad6text.png");
+		width: 212px;
+		height: 120px;
+		float: left;
+		margin-left: 400px;
+		margin-top: 270px;
+	}
+
+	#ipad6 h2
+	{
+		background-image: url("images/ipad6text2.png");
+		width: 214px;
+		height: 75px;
+		float: left;
+		margin-left: 160px;
+		margin-top: 110px;
+	}
+
+	#ipad6 h4
+	{
+		background-image: url("images/ipad6text3.png");
+		width: 97px;
+		height: 57px;
+		float: left;
+		margin-left: 520px;
+		margin-top: 20px;
+	}
+	/*--------------------------------------------------  Timeline  ------------------------------------------------------*/
+	
+	#timeline
+	{
+		position: absolute;
+		float: left;
+		margin-left: 950px;
+		width: 200px;
+		height: 3704px;
+		top: 2000px;
+		z-index: 10;
+		background-image: url("images/timeline-long.png");
+		background-repeat: no-repeat;
+	}
+
+	/*--------------------------------------------------  Top Button   ---------------------------------------------------*/
+	
+	#topButton 
+	{
+		position: fixed;
+		left: 150px;
+		top: 580px;
+		height: 40px;
+		width: 77px;
+		z-index: 10;
+	}
+
+
+
+	/*--------------------------------------------------  dialog boxes ---------------------------------------------------*/
+	.overlay
+	{
+		visibility: hidden;
+	    position: absolute;
+	    width:1004px;
+	    overflow:auto;
+	    height:100%;
+	    text-align:center;
+	    z-index: 1000;
+	}
+
+	.overlay_content
+	{
+		width: 900px;
+		height: 600px;
+		margin: 0px auto;
+		overflow:auto;
+		background-color: #000000;
+		color: white;
+		font-family: 'Roboto Slab';
+		z-index: 1001;
+	}
+
+	.overlay_content a
+	{
+		float: right;
+		margin-right: 18px;
+		margin-top: 18px;
+	}
+
+	.overlay_content article
+	{
+		margin-top: 70px;
+		margin-left: 70px;
+		text-align: left;
+	}
+
+	#assignment_overlay_bg
+	{
+		top: 1011px;
+	}
+
+
+	#assignment_overlay p
+	{
+		margin-top: 20px;
+		font-size: 24px;
+		width: 420px;
+	}
+
+	#beggining_overlay_bg
+	{
+		top: 1700px;
+	}
+
+	#red_oc
+	{
+		float: left;
+	}
+
+	#begginning_overly p
+	{
+		float: left;
+		margin-left: 20px;
+		font-size: 24px;
+		width: 429px;
+
+	}
+
+	#concept_overlay_bg
+	{
+		top: 2580px;
+	}
+
+	#concept_overly p 
+	{
+		margin-top: 1em;
+		font-size: 20px;
+		width: 600px;
+	}
+
+	#company_overlay_bg
+	{top: 3428px;}
+
+	#company_overly p
+	{
+		margin-top: 20px;
+		font-size: 24px;
+		width: 620px;
+	}
+	#design_overlay_bg
+	{top: 4260px;}
+
+	#design_overly p
+	{
+		font-size: 24px;
+		width: 750px;
+	}
+
+	#design_overly article footer
+	{
+		margin-top: 15px;
+	}
+
+	#design_overly article footer aside
+	{
+		margin-right: 40px;
+		width: 201px;
+		height: 300px;
+		float: left;
+	}
+
+	#img1
+	{
+		background-image: url("images/design1.jpg");
+	}
+
+		#img2
+	{
+		background-image: url("images/design2.jpg");
+	}
+
+	#img3
+	{
+		background-image: url("images/design3.jpg");
+	}
+
+	#logo_overlay_bg
+	{
+		top: 5100px;
+	}
+
+	#logo_overly #logo_text_box
+	{
+		margin-left: 70px;
+		margin-top: 170px;
+		height: 279px;
+		width:816px;
+		background-image:  url("images/logoTextBox.png");
+	}
+	/*-----------------------------------------------  Intro Video    -----------------------------------------------------*/
+	
+	#video_overlay_bg
+	{
+		top: 10px;
+	}
+
+	#video_overlay
+	{
+		height: 700px;
+		width: 1004px;
+	}
+	#intro_video
+	{
+		width: 1000px;
+		height: 600px;
+	}
+}
+
+/* --------------------------------------------------   Tablets       ---------------------------------------------------- */
+@media (max-width: 850px){
+
+	#wrapper
+	{
+		margin: 0px auto;
+		width:700px;
+		height: 7000px;
+		background-image: url("images/smartVectorIpad.png");
+		background-repeat: no-repeat;
+		overflow: auto;
+	}
+
+	.fade p
+	{
+		font-family: 'Libre Baskerville';
+		font-size: 28px;
+		color: #ffffff;
+		text-align: center;
+		float: left;
+		position: absolute;
+		
+	}
+
+		nav a:link, nav a:visited
+	{
+		float: left;
+		position: absolute;
+		z-index: 5;
+		font-family: 'Roboto Slab';
+		font-size: 15px;
+		color: #ffffff;
+		text-decoration: none;
+		text-align: center;
+		opacity: 0.7;
+	}
+
+
+		/* --------------------------------   Main Sections Fonts   ----------------------------------------- */
+
+	section h2
+	{
+		float: left;
+		position: absolute;
+		font-family: 'Roboto Slab';
+		font-size: 16px;
+		color: #ffffff;
+	}
+
+	section h4
+	{
+		float: left;
+		position: absolute;
+		z-index: 10;
+		font-family: 'Noto Sans';
+		font-size: 10px;
+		color: #ffffff;
+		text-decoration: none;
+	}
+	nav a:hover
+	{
+		opacity: 1;	
+	}
+
+	section	h4 a, a:visited
+	{
+		color: #ffffff;
+		text-decoration: none;
+		opacity: 0.4;
+	}
+
+	section h4 a:hover
+	{
+		opacity: 1;
+	}
+	header h1
+	{
+		margin-top:30px;
+		margin-left: 80px;
+		position: relative;
+		float: left;
+		font-family: 'Roboto Slab';
+		font-size: 32px;
+		color: white;	
+	}
+
+				/*----------------------------------------  Nav menu --------------------------------------------------------*/
+
+	nav
+	{
+		width:700px;
+		height: 380px;
+	}
+
+	#the_assigment
+	{
+		height: 46px;
+		margin-left: 37px;
+		margin-top: 315px;
+	}
+	#the_begining
+	{
+		margin-left: 120px;
+		margin-top: 244px;
+	}
+
+	#the_concept
+	{
+		margin-left: 200px;
+		margin-top: 166px;
+	}
+
+	#the_company
+	{
+		margin-left: 275px;
+		margin-top: 104px;
+	}
+
+	#the_design
+	{
+		margin-left: 370px;
+		margin-top: 62px;
+	}
+
+
+	#the_logo
+	{
+		margin-left: 458px;
+		margin-top: 30px;
+	}
+
+	#the_app
+	{
+		margin-left: 546px;
+		margin-top: 16px;
+	}
+
+	#the_intro
+	{
+		margin-left: 630px;
+		margin-top: 22px;
+	}
+
+
+	/*--------------------------------------------------  Top Button   ---------------------------------------------------*/
+	
+	#topButton 
+	{
+		position: fixed;
+		left: 0px;
+		top: 580px;
+		height: 40px;
+		width: 77px;
+		z-index: 10;
+	}
+
+
+
+
+	/* ----------------------------------------  The Assignment Section ----------------------------------------*/
+	#the_assigment_text
+	{
+		margin-left: 200px;
+		top: 1216px;
+	}
+	#page2 p
+	{
+		margin-left: 200px;
+		top :1252px;
+	}
+	#learn_more1
+	{
+		text-align: right;
+		margin-left: 530px;
+		top: 1330px;		
+	}
+
+	/* ----------------------------------------  The Begining Section ----------------------------------------*/
+	#the_begining_text
+	{
+		margin-left:315px;
+		top: 2038px;
+	}
+
+	#page3 p
+	{
+		margin-left: 315px;
+		top: 2070px;
+		text-align: left;
+	}
+
+	#learn_more2
+	{
+		margin-left: 530px;
+		top: 2185px;	
+
+	}
+	#brightning2
+	{
+		top:1993px;
+		margin-left:200px;
+	}
+
+	/* ----------------------------------------  The Concept Section ----------------------------------------*/
+
+	#the_concept_text
+	{
+		margin-left:30px;
+		top: 2795px;
+		
+	}
+
+	#page4 p
+	{
+		top: 2830px;
+		width: 400px;
+		margin-left: 20px;
+	}
+
+	#learn_more3
+	{
+		margin-left: 310px;
+		top: 3010px;
+	}
+
+	#brightning3
+	{
+		top:3050px;
+		margin-left:330px;
+	}
+
+	/* ----------------------------------------  The Company Section ----------------------------------------*/
+	#the_company_text
+	{
+		margin-left:200px;
+		top: 3857px;
+	}
+
+	#page5 p
+	{
+		margin-left: 200px;
+		top: 3890px;
+		text-align: justify;
+	}
+
+
+	#learn_more4
+	{
+		margin-left: 560px;
+		top: 3968px;	
+	}
+
+	/* ----------------------------------------  The Design Section ----------------------------------------*/
+
+	#the_design_text
+	{
+		margin-left:180px;
+		top: 4565px;
+	}
+	#page6 p
+	{
+		margin-left: 180px;
+		top: 4590px;
+		text-align: center;
+	}
+	#learn_more5
+	{
+		margin-left: 630px;
+		top: 4710px;	
+	}
+	#brightning5
+	{
+		top:4490px;
+		margin-left:172px;
+	}
+	/* ----------------------------------------  The Logo Section ----------------------------------------*/
+
+	#the_logo_text
+	{
+
+		margin-left:40px;
+		top: 5454px;
+		
+	}
+
+	#page7 p
+	{
+		width: 460px;
+		top: 5485px;
+	}
+
+	#learn_more6
+	{
+		margin-left: 350px;
+		top: 5640px;
+	}
+	#brightning6
+	{
+		top:5405px;
+		margin-left:373px;
+	}
+
+	/*---------------------------------       Parallax Scroll             ---------------------------------------*/
+
+	#content
+	{
+		z-index: 5;
+		width: 700px;
+	}
+
+	#bg-parallax1
+	{
+		background-image: url("images/parallaxSlowerIpad.png");
+		position: fixed;
+		z-index: 3;
+		height: 6750px;
+		width: 700px;
+		background-repeat: no-repeat;
+	}
+
+
+	#bg-parallax2
+	{
+		background-image: url("images/parallaxSlowIpad.png");
+		position: fixed;
+		z-index: 1;
+		height: 6750px;
+		width: 700px;
+		background-repeat: no-repeat;
+	}
+
+	#bg-parallax3
+	{
+		position: fixed;
+		margin-top: 240px;
+		z-index: 5;
+	}
+
+	#bg-parallax4
+	{
+		position: fixed;
+		margin-top: 50px;
+		z-index: 7;
+	}
+
+
+
+
+	/*--------------------------------------------------  dialog boxes ---------------------------------------------------*/
+	.overlay
+	{
+		visibility: hidden;
+	    position: absolute;
+	    width:700px;
+	    overflow:auto;
+	    height:100%;
+	    text-align:center;
+	    z-index: 1000;
+	}
+
+	.overlay_content
+	{
+		width: 700px;
+		height: 570px;
+		margin: 0px auto;
+		overflow:auto;
+		background-color: #000000;
+		color: white;
+		font-family: 'Roboto Slab';
+		z-index: 1001;
+	}
+
+	.overlay_content a
+	{
+		float: right;
+		margin-right: 18px;
+		margin-top: 18px;
+	}
+
+	.overlay_content article
+	{
+		margin-top: 70px;
+		margin-left: 70px;
+		text-align: left;
+	}
+
+	#assignment_overlay_bg
+	{
+		top: 1011px;
+	}
+
+
+	#assignment_overlay p
+	{
+		margin-top: 20px;
+		font-size: 16px;
+		width: 420px;
+	}
+
+	#beggining_overlay_bg
+	{
+		top: 1700px;
+	}
+
+	#red_oc
+	{
+		float: left;
+	}
+
+	#begginning_overly p
+	{
+		float: left;
+		margin-left: 20px;
+		font-size: 16px;
+		width: 300px;
+
+	}
+
+	#concept_overlay_bg
+	{
+		top: 2580px;
+	}
+
+	#concept_overly p 
+	{
+		margin-top: 1em;
+		font-size: 16px;
+		width: 600px;
+	}
+
+	#company_overlay_bg
+	{
+		top: 3428px;
+		float: left;
+	}
+
+	#company_overly p
+	{
+		margin-top: 20px;
+		font-size: 16px;
+		width: 500px;
+	}
+	#design_overlay_bg
+	{top: 4260px;}
+
+	#design_overly p
+	{
+		font-size: 16px;
+		width: 600px;
+	}
+
+	#design_overly article footer
+	{
+		margin-top: 15px;
+	}
+
+
+	#design_overly article footer aside
+	{
+		width: 201px;
+		height: 300px;
+		float: left;
+	}
+
+	#img1
+	{
+		background-image: url("images/design1.jpg");
+	}
+
+		#img2
+	{
+		background-image: url("images/design2.jpg");
+	}
+
+	#img3
+	{
+		background-image: url("images/design3.jpg");
+	}
+
+	#logo_overlay_bg
+	{
+		top: 5100px;
+	}
+
+	#logo_overly #logo_text_box
+	{
+		margin-left: 70px;
+		margin-top: 170px;
+		height: 205px;
+		width:600px;
+		background-image:  url("images/logoTextBoxIpad.jpg");
+	}
+
+	#video_overlay_bg
+	{
+		top: 90px;
+	}
+	
+	#intro_video
+	{
+		width: 550px;
+		height: 400px;
+	}
+
+	#page8
+	{
+		display: none;
+	}
+
+	#prevNext
+	{
+		visibility: hidden;
+	}
+}
